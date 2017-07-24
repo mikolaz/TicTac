@@ -13,15 +13,15 @@ import java.awt.*;
 public class ViewTicTacToe extends MainTicTacToe {
     //змінні
     JPanel windowContent;
-    JButton button1;
-    JButton button2;
-    JButton button3;
-    JButton button4;
-    JButton button5;
-    JButton button6;
-    JButton button7;
-    JButton button8;
-    JButton button9;
+    public JButton button1;
+    public JButton button2;
+    public JButton button3;
+    public JButton button4;
+    public JButton button5;
+    public JButton button6;
+    public JButton button7;
+    public JButton button8;
+    public JButton button9;
 
     private JLabel name;
     JLabel information;
@@ -205,10 +205,10 @@ public class ViewTicTacToe extends MainTicTacToe {
 
     }
 
-   // public void cpuTurn(){
+    public void cpuTurn(){
 
-     //  if (!button5.isEnabled()){button1.setText("O");button1.setEnabled(false);}
-   //}
+       if (!button5.isEnabled()){button1.setText("O");button1.setEnabled(false);}
+   }
 
 
 
