@@ -205,10 +205,10 @@ public class ViewTicTacToe extends MainTicTacToe {
 
     }
 
-    public void cpuTurn(){
+   // public void cpuTurn(){
 
-       if (!button5.isEnabled()){button1.setText("O");button1.setEnabled(false);}
-   }
+     //  if (!button5.isEnabled()){button1.setText("O");button1.setEnabled(false);}
+   //}
 
 
 
